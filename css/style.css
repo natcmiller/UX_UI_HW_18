@@ -1,0 +1,55 @@
+body {
+    background-color: black;
+}
+
+nav {
+    height: 75px;
+    background-color: black;
+    padding: 1%
+}
+
+.block_element{
+    color: #BDCAF5;
+    display: inline-block;
+    vertical-align: top;
+    font-family: manrope;
+    font-size: 24px;
+    font-weight: 200;
+}
+
+.inline-block {
+    display: inline-block;
+    padding: 15px;
+}
+
+h1 {
+    font-family: Baskersville;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 75px;
+    color: #BDCAF5;
+    text-align: center;
+}
+
+h2 {
+    font-family: Baskersville;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 50px;
+    text-align: center;
+    color: #BDCAF5
+}
+
+.header_image {
+    background-image: url(/images/dandelion.gif);
+    background-repeat: no-repeat;
+    height: 281px;
+    width: 500px;
+}
+
+p {
+    font-family: manrope;
+    font-size: 20px;
+    font-weight: 200;
+    color: #BDCAF5;
+}
