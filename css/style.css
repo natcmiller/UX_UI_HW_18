@@ -40,12 +40,69 @@ h2 {
     color: #BDCAF5
 }
 
+h3 {
+    font-family: manrope;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    text-align: center;
+    color: #BDCAF5
+}
+
 .header_image {
     background-image: url(/images/dandelion.gif);
     background-repeat: no-repeat;
     height: 281px;
     width: 500px;
 }
+
+/* My skills section */
+
+.mySkills {
+  display: flex;
+  height: 200px;
+  width: 1000px;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 0 auto;
+}
+
+.research, .brainstorm, .ideate, .design {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 20px;
+}
+
+.research {
+    background-image: url("/images/ListMagnifyingGlass.png");
+    background-repeat:  no-repeat;
+    background-position: center;
+}
+
+.brainstorm {
+    background-image: url("/images/Lightbulb.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.ideate {
+    background-image: url("/images/RainbowCloud.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.design {
+    background-image: url("/images/PencilSimpleLine.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* My work section */
+
+
+
 
 p {
     font-family: manrope;
