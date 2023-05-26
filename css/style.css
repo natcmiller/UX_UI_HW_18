@@ -100,7 +100,15 @@ h3 {
 }
 
 /* My work section */
-
+#myWork {
+    margin: 0px 5%;
+    display: grid;
+    grid-template-rows: 300px 300px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+    "opencloset"
+    "deptlabor";
+}
 
 
 
