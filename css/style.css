@@ -52,7 +52,6 @@ h3 {
 .header_image {
     background-image: url(/images/dandelion.gif);
     background-repeat: no-repeat;
-    background-position: center;
     height: 281px;
     width: 500px;
 }
@@ -112,8 +111,18 @@ h3 {
     grid-template-rows: 300px 300px;
     grid-template-columns: 1fr;
     grid-template-areas: 
-    "opencloset"
-    "deptlabor";
+    "openCloset"
+    "deptLabor";
+}
+
+#openCloset {
+    grid-area: openCloset;
+    background-image: url("/images/clothes.png");
+}
+
+#deptLabor {
+    grid-area: deptLabor;
+    background-image: url("/images/deptLabor.png");
 }
 
 p {
